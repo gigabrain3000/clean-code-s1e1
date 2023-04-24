@@ -115,7 +115,7 @@
     margin: 0 0 20px;
 }
 
-#new-task {
+.input#new-task {
     width: 318px;
 }
 
@@ -168,15 +168,15 @@
 
 /* Edit Task */
 
-.input_task {
+.tasks-list .existing-task-wrapper .input_task {
     display: none;
 }
 
-.edit_mode .input_task {
+.tasks-list .existing-task-wrapper.edit_mode .input_task {
     display: inline-block;
     width: 224px;
 }
 
-.edit_mode .label {
+.tasks-list .existing-task-wrapper.edit_mode .label {
     display: none;
 }
